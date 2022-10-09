@@ -1,1 +1,1 @@
-web: gunicorn main:__init__
+web: gunicorn --bind 0.0.0.0:$PORT main:__init__
